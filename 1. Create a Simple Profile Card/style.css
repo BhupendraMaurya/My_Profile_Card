@@ -1,0 +1,94 @@
+/* .profile_image{ */
+    /* height: 200px;
+    border-radius: 50%;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container_2 {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.icon {
+    height: 100px; 
+   
+}
+
+.icon_gfg{
+    height: 100px;
+} */
+
+
+/* Center everything */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Profile card styling */
+.card {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover animation */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Profile image */
+.profile_image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Spacing & text styles */
+h2, h3 {
+    margin: 5px 0;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    padding: 0 15px;
+}
+
+/* Social icons container */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* Social icons styling */
+.icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect on icons */
+.icon:hover {
+    transform: scale(1.2);
+}
